@@ -2,13 +2,15 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
     top: 50%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%,-50%);
     border-radius: 15px;
     padding: 15px;
     text-align: center;
     border-bottom: 10px solid orange;
     border-right: 5px solid orange;
+    min-width: 236px;
+    min-height: 130px;
 }
 .botao{
     width: 50px;
@@ -23,12 +25,7 @@
     height: 50px;
     width: 223px;
     margin-bottom: 10px;
-
 }
 .input{
     font-size: 35px;
-    background-color: white;
-}
-body{
-    background-color: gray;
 }
