@@ -23,7 +23,11 @@
     height: 50px;
     width: 223px;
     margin-bottom: 10px;
+
 }
 .input{
     font-size: 35px;
+}
+body{
+    background-color: gray;
 }

@@ -3,13 +3,7 @@ function insert(key){
     valor_input = document.getElementById("resultado").value
     ultimo_char = valor_input.slice(-1)
     
-    if(key != "+" && ultimo_char != key || key != "-" && ultimo_char != key){
-        document.getElementById("resultado").value  = valor_input + key
-
-
-
-    }
-    
+    document.getElementById("resultado").value  = valor_input + key
 
 }
 function calcular(){
