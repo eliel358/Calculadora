@@ -1,0 +1,29 @@
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 10px solid orange;
+    border-right: 5px solid orange;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin: 3px;
+    cursor: pointer;
+}
+.input{
+    height: 50px;
+    width: 223px;
+    margin-bottom: 10px;
+}
+.input{
+    font-size: 35px;
+}
