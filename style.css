@@ -1,6 +1,6 @@
 .calculadora{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: white;
     top: 50%;
     left: 45%;
     transform: translate(-50%,-50%);
@@ -25,10 +25,11 @@
     height: 50px;
     width: 223px;
     margin-bottom: 10px;
+    border: 2px solid black;
 }
 .input{
     font-size: 35px;
 }
 body{
-    background-color: white;
+    background-color: #0e0f19;
 }
