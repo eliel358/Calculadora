@@ -1,21 +1,26 @@
 
 function insert(key){
-    valor_input = document.getElementById("resultado").value
+    valor_input = document.getElementById("screen").value
     ultimo_char = valor_input.slice(-1)
     
-    document.getElementById("resultado").value  = valor_input + key
+    document.getElementById("screen").value  = valor_input + key
 }
-function calcular(){
-    valor_input =  document.getElementById("resultado").value
-    resultado = eval(valor_input)
+function calc(){
+    valor_input =  document.getElementById("screen").value
+    screen = eval(valor_input)
     
-    console.log(resultado)
-    document.getElementById("resultado").value = resultado
+    console.log(screen)
+    document.getElementById("screen").value = screen
 }
 function back(){
-    resultado = document.getElementById('resultado').value;
-    document.getElementById("resultado").value = resultado.substring(0, resultado.length -1);
+    screen = document.getElementById('screen').value;
+    document.getElementById("screen").value = screen.substring(0, screen.length -1);
 }
 function clean(){
-    document.getElementById("resultado").value = ""
+    document.getElementById("screen").value = ""
+}
+function negative(){
+    screen = document.getElementById('screen').value;
+    x = screen*2
+    document.getElementById('screen').value = screen - x;
 }

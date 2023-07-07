@@ -1,35 +1,67 @@
-.calculadora{
-    position: absolute;
-    background-color: white;
-    top: 50%;
-    left: 45%;
-    transform: translate(-50%,-50%);
-    border-radius: 15px;
-    padding: 15px;
+body{
+    background: linear-gradient(90deg,black 0%,#2D2A37 120%);
+    display: flex;
+    justify-content: center;
+    padding: 300px;
+}
+.conteiner{
     text-align: center;
-    border-bottom: 10px solid orange;
-    border-right: 5px solid orange;
-    min-width: 236px;
-    min-height: 130px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, purple 0%, rgb(117, 49, 228)120%);
+    width: 500px;
+    height: 890px;
+    box-shadow: -20px 30px 50px 10px;
+}
+.input{
+    width: 450px;
+    height: 280px;
+    background-color: transparent;
+    border: none;
+    font-size: 90px;
+    color: white;
+    border-radius: 20%;
+}
+.teclado{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.calculo{
+    height: 283.5px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+    
 }
 .botao{
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    background-color: black;
-    color: white;
-    margin: 3px;
-    cursor: pointer;
+    background: transparent;
+    box-shadow: 0px 0px 10px;
+    border: 0px ;
+    border-radius: 100px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.input{
-    height: 50px;
-    width: 223px;
-    margin-bottom: 10px;
-    border: 2px solid black;
+.button-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
 }
-.input{
-    font-size: 35px;
-}
-body{
-    background-color: #0e0f19;
+.botao:active{
+    background: linear-gradient(90deg, #710ab1 10%, rgb(179, 1, 179) 120%);;
+    .button-text{
+        font-size: 25px;
+    }
 }
