@@ -4,7 +4,6 @@ function insert(key){
     ultimo_char = valor_input.slice(-1)
     
     document.getElementById("resultado").value  = valor_input + key
-
 }
 function calcular(){
     valor_input =  document.getElementById("resultado").value
