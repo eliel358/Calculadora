@@ -9,8 +9,9 @@ body{
     border-radius: 40px;
     background: linear-gradient(45deg, rgb(255, 0, 0) 0%, rgb(4, 0, 255)120%);
     width: 500px;
-    height: 890px;
+    height: 100%;
     box-shadow: -50px 30px 50px 10px;
+    margin: 10px;
 }
 .input{
     width: 450px;
@@ -32,6 +33,12 @@ body{
     display: flex;
     justify-content: center;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 p{
     justify-content: center;
     align-items: center;
@@ -64,4 +71,8 @@ p{
     .button-text{
         font-size: 25px;
     }
+}
+
+@media screen and (max-width: 535px) {
+    
 }
