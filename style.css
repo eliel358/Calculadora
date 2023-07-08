@@ -2,7 +2,7 @@ body{
     background: linear-gradient(90deg,rgb(243, 243, 243) 0%,#2D2A37 120%);
     display: flex;
     justify-content: center;
-    padding: 300px;
+    padding: 30px;
 }
 .conteiner{
     text-align: center;
