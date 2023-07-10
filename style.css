@@ -14,6 +14,7 @@ body{
     margin: 10px;
 }
 .input{
+    outline: 0;
     width: 450px;
     height: 280px;
     background-color: transparent;
@@ -71,8 +72,4 @@ p{
     .button-text{
         font-size: 25px;
     }
-}
-
-@media screen and (max-width: 535px) {
-    
 }
