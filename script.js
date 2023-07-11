@@ -24,3 +24,61 @@ function negative(){
     x = screen*2
     document.getElementById('screen').value = screen - x;
 }
+document.addEventListener('keydown',(event)=>{
+
+    if (event.key == "Backspace"){
+        back()
+    }
+    
+    if (event.key == "%"){
+        insert("%")
+    }
+    if (event.key == "/"){
+        insert("/")
+    }
+    if (event.key == "7"){
+        insert("7")
+    }
+    if (event.key == "8"){
+        insert("8")
+    }
+    if (event.key == "9"){
+        insert("9")
+    }
+    if (event.key == "*"){
+        insert("*")
+    }
+    if (event.key == "4"){
+        insert("4")
+    }
+    if (event.key == "5"){
+        insert("5")
+    }
+    if (event.key == "6"){
+        insert("6")
+    }
+    if (event.key == "-"){
+        insert("-")
+    }
+    if (event.key == "1"){
+        insert("1")
+    }
+    if (event.key == "2"){
+        insert("2")
+    }
+    if (event.key == "3"){
+        insert("3")
+    }
+    if (event.key == "+"){
+        insert("+")
+    }
+    if (event.key == "0"){
+        insert("0")
+    }
+    if (event.key == "."){
+        insert(".")
+    }
+    if (event.key == "Enter"){
+        calc()
+    }
+})
