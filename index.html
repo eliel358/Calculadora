@@ -4,49 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
     
 </head>
 <body>
-    <div class="display">
+
     <div class="conteiner">
-        <div class="calculo">
+
             <input class="input" id="screen" type="text">
 
-        </div>
         <div class="teclado">
-            <div class="row">
                 <button class="botao" onclick="back()"><p class="button-text">CE</p></button>
                 <button class="botao" onclick="clean()"><p class="button-text">C</p></button>
                 <button class="botao" onclick="insert('%')"><p class="button-text">%</p></button>
                 <button class="botao" onclick="insert('/')"><p class="button-text">÷</p></button>
-            </div>
-            <div class="row">
                 <button class="botao" onclick="insert('7')"><p class="button-text">7</p></button>
                 <button class="botao" onclick="insert('8')"><p class="button-text">8</p></button>
                 <button class="botao" onclick="insert('9')"><p class="button-text">9</p></button>
                 <button class="botao" onclick="insert('*')"><p class="button-text">×</p></button>
-            </div>
-            <div class="row">
                 <button class="botao" onclick="insert('4')"><p class="button-text">4</p></button>
                 <button class="botao" onclick="insert('5')"><p class="button-text">5</p></button>
                 <button class="botao" onclick="insert('6')"><p class="button-text">6</p></button>
                 <button class="botao" onclick="insert('-')"><p class="button-text">-</p></button>
-            </div>
-            <div class="row">
                 <button class="botao" onclick="insert('1')"><p class="button-text">1</p></button>
                 <button class="botao" onclick="insert('2')"><p class="button-text">2</p></button>
                 <button class="botao" onclick="insert('3')"><p class="button-text">3</p></button>
                 <button class="botao" onclick="insert('+')"><p class="button-text">+</p></button>
-            </div>
-            <div class="row">
                 <button class="botao" onclick="negative()"><p class="button-text">+/-</p></button>
                 <button class="botao" onclick="insert('0')"><p class="button-text">0</p></button>
                 <button class="botao" onclick="insert('.')"><p class="button-text">.</p></button>
                 <button class="botao" onclick="calc()"><p class="button-text">=</p></button>
             </div>
-        </div>
     </div>
 </div>
 </body>
