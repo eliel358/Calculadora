@@ -25,6 +25,7 @@ function negative(){
     document.getElementById('screen').value = screen - x;
 }
 document.addEventListener('keydown',(event)=>{
+//refatorar
     if (event.key == "Backspace"){
         back()
     }
